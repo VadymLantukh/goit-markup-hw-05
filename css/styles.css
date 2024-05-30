@@ -689,6 +689,10 @@ fill: #fff;
     fill: #4d5ae5;
 }
 
+.modal_form_box_textarea {
+    margin-bottom: 16px;
+}
+
 .modal_textarea {
     width: 100%;
     height: 120px;
