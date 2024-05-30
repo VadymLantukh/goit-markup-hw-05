@@ -499,9 +499,9 @@
                     <ul class="modal_list">
 
                         <li class="modal_item">
-                            <label class="modal_label">Name</label>
+                            <label class="modal_label" for="user-name">Name</label>
                                 <div class="modal-box-icon">
-                                    <input class="modal-input" type="text" name="user-name">
+                                    <input class="modal-input" type="text" name="user-name" id="user-name">
                                     <svg class="modal-label-icon" width="12" height="12">
                                         <use href="./images/icons.svg#icon-model-profile"></use>
                                     </svg>
@@ -509,9 +509,9 @@
                         </li>
 
                         <li class="modal_item">
-                            <label class="modal_label">Phone</label>
+                            <label class="modal_label" for="user-phone">Phone</label>
                                 <div class="modal-box-icon">
-                                    <input class="modal-input" type="tel" name="user-phone">
+                                    <input class="modal-input" type="tel" name="user-phone" id="user-phone">
                                     <svg class="modal-label-icon" width="13" height="13">
                                         <use href="./images/icons.svg#icon-modal-phone"></use>
                                     </svg>
@@ -519,9 +519,9 @@
                         </li>
 
                         <li class="modal_item">
-                            <label class="modal_label">Email</label>
+                            <label class="modal_label" for="user-email">Email</label>
                                 <div class="modal-box-icon">
-                                    <input class="modal-input" type="email" name="user-email">
+                                    <input class="modal-input" type="email" name="user-email" id="user-email">
                                     <svg class="modal-label-icon" width="16" height="12">
                                         <use href="./images/icons.svg#icon-modal-email"></use>
                                     </svg>
@@ -534,16 +534,15 @@
                                 <textarea class="modal_textarea" id="modal_comment" name="modal-comment"
                                     placeholder="Text input"></textarea>
                             
-                        <li class="modal_item">
-                            <label class="modal_checkbox_label" name="user-checkbox"></label>
+                        <li class="modal_item text-size">
+                            <label class="modal_checkbox_label" for="user-checkbox"></label>
                                 <input class="modal_input_checkbox visually-hidden" type="checkbox"
-                                    name="user-checkbox">
+                                    name="user-checkbox" id="user-checkbox">
                                 <span class="modal_span_checkbox">
                                     <svg class="modal-checkbox-icon" width="10" height="8">
                                         <use href="./images/icons.svg#icon-checkbox"></use>
                                     </svg>
-                                    </span> I accept the terms and conditions of the 
-                                    <a class="modal-link-checkbox-privacy"href="">Privacy Policy</a>
+                                    </span>I accept the terms and conditions of the<a class="modal-link-checkbox-privacy"href="">Privacy Policy</a>
                         </li>
                     </ul>
 
