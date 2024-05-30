@@ -527,7 +527,7 @@ img {
 .footer_btn_subscribe {
     border-radius: 4px;
     cursor: pointer;
-    padding: 8px 64px 8px 24px;
+    padding: 8px 24px 8px 24px;
     min-width: 165px;
     height: 40px;
     display: flex;
